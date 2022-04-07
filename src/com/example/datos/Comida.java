@@ -8,6 +8,10 @@ package com.example.datos;
 import java.time.LocalDate;
 
 /**
+ * La clase Comida hereda de la clase Producto
+ * Implementa la variable fechaVencimiento
+ * Y sobreescribe getDescuento y toString
+ *
  * @author cafajardo
  */
 public class Comida extends Producto {
